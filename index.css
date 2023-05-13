@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    width: 40;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#fff;
+    color: #fff;
+  
+}
+.navbar ul {
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+
+.navbar ul .log {
+    font-size: 3rem ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.para h2 {
+color: black;
+margin-bottom: 3rem;
+margin-left: 2rem;
+padding-top: 10rem;
+}  
+
+.para p{
+    color: black;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    padding-top: 0.2rem; 
+}
+.para img{
+    width: 400px;
+    height: 200px;
+    border:2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+    padding-left: 20px;
+    margin-left: 80rem;
+    margin-top: -10rem;
+}
+.para button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+  .para .button1 {background-color: #ffa500;}
+  .para .button2 {background-color: #fff;}
+
+ .para .button2 {
+    background-color: white;
+    color: #ffa500;
+    border: 2px solid #ffa500;
+  }
+  
