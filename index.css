@@ -104,15 +104,31 @@ padding-top: 10rem;
     
   }
   .top img {
-    width: 6rem;
+    width: 8rem;
     height: 4rem;
     border:2px solid #fff;
-
+    color: #d37537;
     -moz-box-shadow: 10px 10px 5px #ccc;
     -webkit-box-shadow: 10px 10px 5px #ccc;
     box-shadow: 10px 10px 5px #ccc;
     -moz-border-radius: 5px;
     -webkit-border-radius:25px;
     border-radius:25px;
+    display: inline-block;
+    margin-right: 100px;
+    
   }
-  
+  .top .button3 {
+    background-color: #ffa500;
+    color: #0e0d0d;
+    border: 2px solid #ffa500;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: -4rem;
+  }
