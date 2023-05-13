@@ -60,6 +60,7 @@ padding-top: 10rem;
     margin-left: 60rem;
     margin-top: -10rem;
 }
+
 .para button {
     border: none;
     color: white;
@@ -80,5 +81,38 @@ padding-top: 10rem;
     background-color: white;
     color: #ffa500;
     border: 2px solid #ffa500;
+  }
+
+  .sacho .button0 {
+    background-color: #ffa500;
+    color: #0e0d0d;
+    border: 2px solid #ffa500;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .top{
+    color: black;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding-top: 10rem;
+    
+  }
+  .img {
+    width: 400px;
+    height: 200px;
+    border:2px solid #fff;
+    background: url(./Assets/audi.png) no-repeat;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
   }
   
