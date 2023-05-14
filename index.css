@@ -353,6 +353,7 @@ margin-left: -5rem;
     margin-left: 4rem;
     padding-top: 10rem;
 }
+
 .end li {
     color: black;
     margin-bottom: 2rem;
@@ -360,6 +361,23 @@ margin-left: -5rem;
     
 }
 .end .container5 {
+    background-color: #fff;
+    height: 70rem;
+    width: 100rem;
+    padding: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding-top: 10rem;
+  
+
+}
+.end1 li {
+    color: black;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    
+}
+.end .container6 {
     background-color: #fff;
     height: 70rem;
     width: 100rem;
