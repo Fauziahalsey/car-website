@@ -161,3 +161,39 @@ padding-top: 10rem;
         display: inline-block;
     
     }
+    .container {
+        background-color: #fff;
+        height: 30rem;
+        width: 24rem;
+        padding: 4rem;
+        margin-bottom: 3rem;
+        margin-left: 4rem;
+        padding-top: 10rem;
+        border: 1px solid hsl(0, 10%, 34%);
+        border-radius: 25px;
+        -moz-box-shadow: 10px 10px 5px #ccc;
+        -webkit-box-shadow: 10px 10px 5px #ccc;
+        box-shadow: 10px 10px 5px #ccc;
+        -moz-border-radius:25px;
+        -webkit-border-radius:25px;
+
+    }
+.container img {
+    height: 10rem;
+     
+}
+.cars {
+    display: flex;
+    padding-left: 100px;
+
+}
+.car1 {
+    display: flex;
+    padding-left: 100px;
+}
+.cars .container h3 {
+    margin-top: -14rem;
+}
+.car1 .container h3 {
+    margin-top: -14rem;
+}
