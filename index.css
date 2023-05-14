@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+	list-style: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
 }
 body{
-    font-family: sans-serif;
-    height: 50px;
-    width: 100%;
+    height: 100vh;
+	width: 100%;
 }
 .navbar{
     display: flex;
@@ -205,7 +208,7 @@ padding-top: 10rem;
 .contact-icons i{
 	height: 40px;
 	width: 40px;
-	background: #12141c;
+	background: #5d7cfa;
 	border-radius: 0.5rem;
 	color: var(--main-color);
 	display: inline-flex;
@@ -214,4 +217,34 @@ padding-top: 10rem;
 	font-size: 18px;
 	margin-right: 10px;
 	transition: all .40s ease;
+}
+.car1 .container .button4{
+    background-color: #ffa500;
+    color: #0e0d0d;
+    border: 2px solid #ffa500;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 18rem;
+    margin-left: -2rem;
+}
+.cars .container .button4{
+    background-color: #ffa500;
+    color: #0e0d0d;
+    border: 2px solid #ffa500;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 18rem;
+    margin-left: -2rem;
 }
