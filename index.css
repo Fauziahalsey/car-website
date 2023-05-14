@@ -148,46 +148,45 @@ padding-top: 10rem;
 
 .box1{
   padding: 105px;
-  background: #12141c;
-  border-top: 5px solid transparent;
+
   border-radius: 0.5rem;
-  transition: all .40s ease;
+  
   cursor: pointer;
   
   
 }
 .box1 img{
 width: 23rem;
-animation: bounce 1.5s infinite;
+
 transition: 1s;
-transform-style: preserve-3d;
+
 margin-left: -5rem;	
+}
+.box1 h3{
+    margin-bottom: -4rem;
 }
 
 .box2{
   padding: 42px;
-  background: #12141c;
+
   border-top: 5px solid transparent;
   border-radius: 0.5rem;
-  transition: all .40s ease;
+  
   cursor: pointer;
   
 }
 
 .box2 img{
   width: 23rem;	
-  animation: bounce 1.5s infinite;
-  transition: 1s;
-  transform-style: preserve-3d;
+
   }
 
   .box3{
       padding: 103px;
-      background: #12141c;
+      
       border-top: 5px solid transparent;
       border-radius: 0.5rem;
-      transition: all .40s ease;
-      cursor: pointer;
+      
 
       
   }
@@ -213,24 +212,7 @@ margin-left: -5rem;
   line-height: 30px;
 }
     
-    /* .hapi p{
-        color: black;
-        margin-bottom: 2rem;
-        margin-left: 4rem;
-        padding-top: 0.4rem; 
-    }
-    .hapi img{
-        width: 400px;
-        height: 200px;
-        display: flex;
-        padding: 15px;
-        display: inline-block;
-        margin-right: 100px;
-        margin-left: 4rem;
-        justify-content: center;
-        display: inline-block;
-    
-    } */
+    /*  container section*/
     .container {
         background-color: #fff;
         height: 30rem;
