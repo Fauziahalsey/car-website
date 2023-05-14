@@ -336,3 +336,37 @@ margin-left: -5rem;
     margin-top: -8rem;
     
 }
+.cont .container3 .lol{
+    margin-top: -8rem;
+    margin-left: 30rem;
+    
+}
+.cont .container3 .ol{
+    margin-top: -15rem;
+    margin-left: 60rem;
+    height: 100vh;
+   
+}
+.end h3 {
+    color: black;
+    
+    margin-left: 4rem;
+    padding-top: 10rem;
+}
+.end li {
+    color: black;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    
+}
+.end .container5 {
+    background-color: #fff;
+    height: 70rem;
+    width: 100rem;
+    padding: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding-top: 10rem;
+  
+
+}
