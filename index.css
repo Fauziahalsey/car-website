@@ -188,8 +188,18 @@ margin-left: -5rem;
       border-radius: 0.5rem;
       
 
-      
+    
   }
+  .main-text h2 {
+    color: black;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding-top: 10rem;
+  }
+.main-text .gol {
+     
+}
+  
   .box3 img{
       width: 23rem;
       animation: bounce 1.5s infinite;
