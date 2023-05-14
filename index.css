@@ -2,13 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
-	list-style: none;
-	text-decoration: none;
-	scroll-behavior: smooth;
 }
 body{
-    
+    font-family: sans-serif;
     height: 50px;
     width: 100%;
 }
@@ -140,14 +136,84 @@ padding-top: 10rem;
     color: #ec770a;
   }
 
-  .hapi h2 {
-    color: black;
-    margin-bottom: 3rem;
-    margin-left: 4rem;
-    padding-top: 10rem;
-    }  
+
+.clients-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.box1{
+  padding: 105px;
+  background: #12141c;
+  border-top: 5px solid transparent;
+  border-radius: 0.5rem;
+  transition: all .40s ease;
+  cursor: pointer;
+  
+  
+}
+.box1 img{
+width: 23rem;
+animation: bounce 1.5s infinite;
+transition: 1s;
+transform-style: preserve-3d;
+margin-left: -5rem;	
+}
+
+.box2{
+  padding: 42px;
+  background: #12141c;
+  border-top: 5px solid transparent;
+  border-radius: 0.5rem;
+  transition: all .40s ease;
+  cursor: pointer;
+  
+}
+
+.box2 img{
+  width: 23rem;	
+  animation: bounce 1.5s infinite;
+  transition: 1s;
+  transform-style: preserve-3d;
+  }
+
+  .box3{
+      padding: 103px;
+      background: #12141c;
+      border-top: 5px solid transparent;
+      border-radius: 0.5rem;
+      transition: all .40s ease;
+      cursor: pointer;
+
+      
+  }
+  .box3 img{
+      width: 23rem;
+      animation: bounce 1.5s infinite;
+      transition: 1s;
+      transform-style: preserve-3d;
+      margin-left: -5rem;	
+      text-align: center;	
+      }
+  
+
+.box h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px 0;
+  transition: all .40s ease;
+}
+.box p{
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 30px;
+}
     
-    .hapi p{
+    /* .hapi p{
         color: black;
         margin-bottom: 2rem;
         margin-left: 4rem;
@@ -164,7 +230,7 @@ padding-top: 10rem;
         justify-content: center;
         display: inline-block;
     
-    }
+    } */
     .container {
         background-color: #fff;
         height: 30rem;
