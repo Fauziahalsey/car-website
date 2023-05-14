@@ -135,3 +135,29 @@ padding-top: 10rem;
   .top .pol {
     color: #ec770a;
   }
+
+  .hapi h2 {
+    color: black;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    padding-top: 10rem;
+    }  
+    
+    .hapi p{
+        color: black;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+        padding-top: 0.4rem; 
+    }
+    .hapi img{
+        width: 400px;
+        height: 200px;
+        display: flex;
+        padding: 15px;
+        display: inline-block;
+        margin-right: 100px;
+        margin-left: 4rem;
+        justify-content: center;
+        display: inline-block;
+    
+    }
