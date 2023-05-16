@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.cars .container .icons{
+    height: 4px;
+    margin-top: -12rem;
+    margin-left: -5rem;
+}
 body{
     font-family: sans-serif;
     height: 50px;
     width: 100%;
+    overflow-x: hidden;
 }
 .navbar{
     display: flex;
@@ -49,8 +55,8 @@ padding-top: 10rem;
     padding-top: 0.2rem; 
 }
 .para img{
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     border:2px solid #fff;
     box-shadow: 10px 10px 5px #ccc;
     -moz-box-shadow: 10px 10px 5px #ccc;
@@ -59,6 +65,7 @@ padding-top: 10rem;
     padding-left: 20px;
     margin-left: 60rem;
     margin-top: -10rem;
+    
 }
 
 .para button {
@@ -74,19 +81,19 @@ padding-top: 10rem;
     margin-left: 4rem;
     border-radius: 5px;
   }
-  .para .button1 {background-color: #ffa500;}
+  .para .button1 {background-color: #FF5733;}
   .para .button2 {background-color: #fff;}
 
  .para .button2 {
     background-color: white;
-    color: #ffa500;
-    border: 2px solid #ffa500;
+    color: #FF5733;
+    border: 2px solid #FF5733;
   }
 
   .sacho .button0 {
-    background-color: #ffa500;
+    background-color: #FF5733;
     color: #0e0d0d;
-    border: 2px solid #ffa500;
+    border: 2px solid #FF5733;
     border-radius: 5px;
     padding: 15px 32px;
     text-align: center;
@@ -95,6 +102,12 @@ padding-top: 10rem;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+  }
+  .top .pol{
+    color: #FF5733;
+  }
+  .top .button3{
+    margin-top: 6rem;
   }
   .top{
     color: black;
@@ -107,7 +120,7 @@ padding-top: 10rem;
     width: 8rem;
     height: 4rem;
     border:2px solid #fff;
-    color: #d37537;
+    color: #FF5733;
     -moz-box-shadow: 10px 10px 5px #ccc;
     -webkit-box-shadow: 10px 10px 5px #ccc;
     box-shadow: 10px 10px 5px #ccc;
@@ -133,7 +146,7 @@ padding-top: 10rem;
     margin-bottom: 8rem;
   }
   .top .pol {
-    color: #ec770a;
+    color: v;
   }
 
 
@@ -278,9 +291,9 @@ margin-left: -5rem;
 	transition: all .40s ease;
 }
 .car1 .container .button4{
-    background-color: #ffa500;
+    background-color: #FF5733;
     color: #0e0d0d;
-    border: 2px solid #ffa500;
+    border: 2px solid #FF5733;
     border-radius: 5px;
     padding: 15px 32px;
     text-align: center;
@@ -293,9 +306,9 @@ margin-left: -5rem;
     margin-left: -2rem;
 }
 .cars .container .button4{
-    background-color: #ffa500;
+    background-color: #FF5733;
     color: #0e0d0d;
-    border: 2px solid #ffa500;
+    border: 2px solid #FF5733;
     border-radius: 5px;
     padding: 15px 32px;
     text-align: center;
@@ -347,44 +360,163 @@ margin-left: -5rem;
     height: 100vh;
    
 }
-.end h3 {
-    color: black;
-    
-    margin-left: 4rem;
-    padding-top: 10rem;
-}
+/* footer */
 
-.end li {
-    color: black;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
-    
-}
-.end .container5 {
+.container6 {
     background-color: #fff;
-    height: 70rem;
-    width: 100rem;
-    padding: 4rem;
+    height: 20rem;
+    width: 100%;
     margin-bottom: 3rem;
     margin-left: 4rem;
-    padding-top: 10rem;
-  
+    margin-top: 50rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
 
 }
-.end1 li {
-    color: black;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
+.container6 li {
+    margin-top: 2rem;
     
 }
-.end .container6 {
+.container7 {
     background-color: #fff;
-    height: 70rem;
-    width: 100rem;
-    padding: 4rem;
+    height: 20rem;
+    width: 100%;
     margin-bottom: 3rem;
-    margin-left: 4rem;
-    padding-top: 10rem;
-  
+    margin-left: 35rem;
+    margin-top: -23rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
 
+}
+.container7 li {
+    margin-top: 2rem;
+    
+}
+.container8 li {
+    margin-top: 2rem;
+    
+}
+.container8 {
+    background-color: #fff;
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    margin-left: 65rem;
+    margin-top: -23rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.end {
+    margin-left: 85rem;
+    margin-top: -21rem;
+    border-radius: 22px
+}
+input{
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    background: transparent;
+    color: #FF5733;
+    border: 2px solid #FF5733;
+    /* border-radius: 25px; */
+    
+}
+.two button {
+    width: 150px;
+    background-color: #FF5733;
+    padding: 10px 15px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 7px;
+    border: 2px solid #FF5733;
+
+}
+.container .ree{
+    margin-bottom: 2rem;  
+}
+.container .ree1{
+    margin-bottom: 2rem;  
+}
+.container .ree2{
+    margin-bottom: 2rem;  
+}
+.three {
+    border-radius: 35px;
+    margin-right: 68px;
+    margin-top: 9px;
+    
+}
+.end .three{
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 2px solid #f65f08;
+    border-radius: 8px;
+    font-size: 1em;
+    
+}
+.two h4{
+    margin-bottom: 2rem;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer{
+    width: 100%;
+}
+}
+.cars .container h4{
+    margin-top: -6rem;
+    
+}
+.cars .container h5{
+    margin-bottom: 6rem;
+    margin-left: 12rem;
+    margin-top: -16px;
+    font-size: 17px;
+    white-space: nowrap;
+    
+}
+.car1 .container h5{
+    margin-bottom: 6rem;
+    margin-left: 12rem;
+    margin-top: -16px;
+    font-size: 17px;
+    white-space: nowrap;
+    
+}
+
+.car1 .container h4{
+    margin-top: -6rem;
+}
+
+.end .three .button5{
+    background-color: #FF5733 ;
+    color: #0e0d0d;
+    border: 2px solid #FF5733 ;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 4px;
+    cursor: pointer;
+    margin-top: -16rem;
+    margin-left: -1rem;
+    width: 150px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.footer{
+    height: 100px;
+    margin-top: -18rem;
 }
