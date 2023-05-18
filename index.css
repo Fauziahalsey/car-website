@@ -34,7 +34,7 @@ body{
 }
 
 .navbar ul .log {
-    font-size: 3rem ;
+    font-size: 30px ;
 }
 
 a{
@@ -115,6 +115,9 @@ padding-top: 10rem;
     margin-left: 4rem;
     padding-top: 10rem;
     
+  }
+  .top .mee{
+    background-color: #FF5733;
   }
   .top img {
     width: 8rem;
@@ -325,7 +328,7 @@ margin-left: -5rem;
     height: 20rem;
     width: 100rem;
     padding: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     margin-left: 4rem;
     padding-top: 10rem;
     border: 1px solid hsl(0, 10%, 34%);
